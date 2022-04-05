@@ -1,3 +1,8 @@
+// https://www.acmicpc.net/problem/1000
+// TAG 수학, 사칙연산, 구현
+// solved.ac Bronze 5
+// 첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
+
 const fs = require("fs");
 const inputPath =
   process.platform === "darwin" ? __dirname + "/data.txt" : "/dev/stdin";
