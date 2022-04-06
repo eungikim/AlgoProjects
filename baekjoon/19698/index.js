@@ -18,8 +18,8 @@ function solve(numOfCow, width, height, sizeOfRoom) {
   if (width < sizeOfRoom || height < sizeOfRoom) {
     console.log(0);
   } else {
-    const widthQuotient = parseInt(width / sizeOfRoom);
-    const heightQuotient = parseInt(height / sizeOfRoom);
+    const widthQuotient = Math.floor(width / sizeOfRoom);
+    const heightQuotient = Math.floor(height / sizeOfRoom);
     const result = widthQuotient * heightQuotient;
     // console.log(
     //   `widthQuotient:${widthQuotient}, heightQuotient:${heightQuotient}, result:${result}`
