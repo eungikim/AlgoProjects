@@ -58,3 +58,6 @@ function printPetStatus(scenarioNumber, appropriateWeight, currentWeight) {
     console.log(`${scenarioNumber} ${PetStatus.SAD}`);
   }
 }
+
+// index로 관리하여 shift()를 안쓰거나 죽은다음 해당 시나리오를 넘기는 방법을 쓰면 더 빠를듯
+// isDead 사용해서 연산 몇번 더 줄일 수 있겠지만 생략
